@@ -1,0 +1,36 @@
+============================================================
+DEEPFAKE IMAGE DETECTOR - TEST EVALUATION REPORT
+============================================================
+Model Evaluated: best_model.keras
+Test Directory:  C:\Users\Dell\.gemini\antigravity-ide\scratch\deepfake-image-detector\dataset\test
+Decision Threshold: 0.50 (Fake Score)
+Total Test Samples: 30
+
+OVERALL PERFORMANCE METRICS:
+  Accuracy:  1.0000 (100.00%)
+  Precision: 1.0000
+  Recall:    1.0000
+  F1-Score:  1.0000
+  ROC-AUC:   1.0000
+
+CONFUSION MATRIX:
+  [TN (True Fake) = 15 | FP (False Real) = 0]
+  [FN (False Fake) = 0 | TP (True Real) = 15]
+
+DETAILED CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        fake     1.0000    1.0000    1.0000        15
+        real     1.0000    1.0000    1.0000        15
+
+    accuracy                         1.0000        30
+   macro avg     1.0000    1.0000    1.0000        30
+weighted avg     1.0000    1.0000    1.0000        30
+
+============================================================
+IMPORTANT INTERPRETATION NOTES:
+Test results directly depend on dataset quality, distribution balance,
+and whether the test images faithfully represent in-the-wild manipulation
+methods (GANs, diffusion models, FaceForensics++ deepfakes).
+High test set accuracy does not imply 100% real-world generalization.
+============================================================

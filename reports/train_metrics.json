@@ -1,0 +1,9 @@
+{
+    "final_train_loss": 0.05142536014318466,
+    "final_train_accuracy": 0.9928571581840515,
+    "final_val_loss": 0.009230808354914188,
+    "final_val_accuracy": 1.0,
+    "epochs_trained": 11,
+    "best_model_path": "C:\\Users\\Dell\\.gemini\\antigravity-ide\\scratch\\deepfake-image-detector\\models\\best_model.keras",
+    "final_model_path": "C:\\Users\\Dell\\.gemini\\antigravity-ide\\scratch\\deepfake-image-detector\\models\\final_model.keras"
+}
